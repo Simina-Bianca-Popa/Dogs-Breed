@@ -2,6 +2,9 @@ a {
     text-decoration: none;
     color: black;
 }
+.active {
+    color: blue;
+}
 .rasa { width: 300px;
     padding: 10px;
     margin: 0;
@@ -21,8 +24,11 @@ a {
     margin-right: auto;
     margin-top: 10px;
 }
-img {border-radius: 80%;
+img {
+    border-radius: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;}
+    width: 400px;
+    height: 400px;
+}
